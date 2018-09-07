@@ -50,7 +50,7 @@ publishing {
                 asNode().appendNode('description', 'A wrapper library for basic Android M system permissions logic')
 
                 // URL
-                asNode().appendNode('url', 'https://github.com/googlesamples/easypermissions')
+                asNode().appendNode('url', 'https://github.com/bachhoan88/easypermissions')
 
                 // Inception Year
                 asNode().appendNode('inceptionYear', '2015')
@@ -67,8 +67,8 @@ publishing {
 
                 // SCM
                 def scm = asNode().appendNode('scm')
-                scm.appendNode('connection', 'https://github.com/googlesamples/easypermissions.git')
-                scm.appendNode('url', 'https://github.com/googlesamples/easypermissions')
+                scm.appendNode('connection', 'https://github.com/bachhoan88/easypermissions.git')
+                scm.appendNode('url', 'https://github.com/bachhoan88/easypermissions')
 
                 // Dependencies
                 def dependenciesNode = asNode().getAt('dependencies')[0]
